@@ -1,0 +1,30 @@
+
+
+.nav {
+    width: 1080px;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.nav a {
+    color:gray;
+}
+.nav button{
+    background-color: darkgreen;
+    color: gray
+}
+.nav-title{
+    color: gray;
+    margin-left: 20px;
+    background-color: black;
+}
+.#{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+    list-style-type: none;
+}

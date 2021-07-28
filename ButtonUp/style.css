@@ -1,0 +1,19 @@
+
+
+.button1 {
+  margin: 50px;
+  border-radius: 15px;
+  background-color: darkorange;
+}
+
+.button {
+  border-radius: 50%;
+  margin: 50px;
+  background-color: chartreuse;
+}
+.button3 {
+  box-shadow: 10px 5px 5px grey;
+  margin: 28px;
+  width: 120px;
+  background-color: blueviolet;
+}

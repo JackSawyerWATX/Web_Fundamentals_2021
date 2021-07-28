@@ -1,0 +1,30 @@
+body{
+    background-color:darkblue;
+    margin-left:40%;    
+    margin-right:40%;
+    display: flex
+}
+
+.pole{
+    background-color:silver;
+    width: 45px;
+    height:1000px;
+}
+
+.right{
+    background-color:orange;
+    width: 680px;
+    height:160px;
+}
+
+.mid{
+    background-color:white;
+    width:680px;
+    height:160px;
+}
+
+.left{
+    background-color:green;
+    width:680px;
+    height:160px;
+}

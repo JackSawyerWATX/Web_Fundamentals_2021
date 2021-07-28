@@ -1,0 +1,18 @@
+
+
+h1{
+    text-align: left;
+    color: black;
+    background-color: aqua;
+}
+h2{
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+}
+h3{
+    text-align: right;
+    color: blueviolet;
+    background-color: lightskyblue;
+}
+

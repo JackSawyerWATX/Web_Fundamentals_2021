@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ButtonClicker</title>
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <div class="nav-links">
+            <input class="search" type="text" placeholder="search" name="query">
+            <button class="btn" onclick="loginNLogout(this)">Login</button>
+        </div>
+    </div>
+    <div>
+        <h1 class="one">1. Ninja</h1>
+        <h2>noun</h2>
+        <h3>Plural: Ninjas</h3>
+        <p>A practitioner skilled in the Japanese art of ninjutsu.</p>
+        <button onclick="myAlert()">Like</button>
+    </div>
+    <div>
+        <h1 class="two">2. Ninja</h1>
+        <h2>noun</h2>
+        <h3>Plural: Ninjas</h3>
+        <p>A programmer who breaks down problems with zen-like focus.</p>
+        <button onclick="countLikes()" class="btn">Like</button>
+        <p id="likeCounter">0</p>
+    </div>
+    <div class="add">
+        <p>Dojonary is defined by YOU!</p>
+        <button onclick="hide(this)" class="def-btn">Add definition</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

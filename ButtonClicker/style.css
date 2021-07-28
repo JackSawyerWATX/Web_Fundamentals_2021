@@ -1,0 +1,61 @@
+/*css reset*/
+
+.nav {
+
+    width: 1080px;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: navy;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.nav a {
+    color:navajowhite;
+}
+.nav button{
+    background-color: rgb(0, 0, 170);
+    color: navajowhite
+}
+.nav-title{
+    color: navajowhite;
+    margin-left: 20px;
+    background-color: navy;
+}
+.search[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+.btn{
+    background-color: rgb(0, 0, 170);
+    color: navajowhite
+}
+.btn {
+    background-color: rgb(0, 0, 170);
+    color: navajowhite
+}
+.one {
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    outline: 2px solid black;
+}
+.two {
+    justify-content: right;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    outline: 2px solid black;
+}

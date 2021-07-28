@@ -1,0 +1,169 @@
+/* CSS RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    background-color: gray;
+    margin-left: 25%;
+}
+
+.nav-title{
+    font-family: 'comfortaa', cursive;
+padding-left: 10px;
+}
+
+.wrapper{
+    margin-left: 25%;
+    width: 40%;
+    height: 1000px;
+    margin-top: 25px;
+    display: flex;
+}
+
+.col1{
+    padding-top: 10px;
+    flex: 2;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    outline: 2px solid black;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    outline: 2px solid black;
+}
+
+.col1-1{
+    margin-left: 25px;
+}
+
+.col1-2{
+    margin-left: 25px;
+}
+
+.likes{
+    margin-bottom: 15px;
+    width: 75px;
+    height: 25px;
+    font-size: 15px;
+    background-color: yellow;
+    outline: .5px solid black;
+    box-shadow: 2px 2px 0px 0px black;
+}
+
+.ninja{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+.noun{
+    text-align: center;
+    font-style: italic;
+    padding: 5px 0px 5px 0px;
+}
+
+.plural{
+    padding-bottom: 10px;
+}
+
+.likes{
+    width: 75px;
+    height: 25px;
+    font-size: 15px;
+    background-color: yellow;
+    outline: .5px solid black;
+    box-shadow: 2px 2px 0px 0px black;
+.ninja{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+.noun{
+    text-align: center;
+    font-style: italic;
+    padding: 5px 0px 5px 0px;
+}
+
+.plural{
+    padding-bottom: 10px;
+}
+
+.likes{
+    width: 75px;
+    height: 25px;
+    font-size: 15px;
+    background-color: yellow;
+    outline: .5px solid black;
+    box-shadow: 2px 2px 0px 0px black;
+}
+
+.col2{
+    padding-top: 10px;
+    margin-left: 25px;
+    flex: 1;
+}
+.col1-3{
+    margin-left: 25px;
+}
+
+.col1-4{
+    margin-left: 25px;
+}
+
+.text-box{
+    outline: 2px solid black;
+    padding-top: 10px;
+}
+
+h2{ 
+    margin-left: 15px;
+}
+
+.def-btn{
+    background-color: greenyellow;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    outline: .5px solid black;
+    box-shadow: 2px 2px 0px 0px black;
+    margin-left: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    width: 75px;
+    margin-right: 10px;
+    font-size: 15px;
+    box-shadow: 1px 2px 0px 1px black;
+    color:white;
+    background-color: blue;
+    border: 1px solid black;
+}
+
+.border{
+    border-style: solid;
+    border-color: lightgrey;
+    margin-right: 0px;
+    width: 485px;
+    margin-left: 326px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.btn2{
+    box-shadow: black;
+    color: black;
+    background-color: yellow;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: darkblue;
+    padding: 10px 25px 10px 25px;
+}
+
+header{
+    background-color: darkblue;
+    padding: 10px;
+}
+
+h1{
+    display: inline-block;
+    text-align: left;
+    background-color:orange;
+    width: 680px;
+    height: 40px;
+}
+
+h2{
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    width: 680px;
+    height: 32px;
+}
+
+h3{
+    display: inline-block;
+    text-align: right;
+    background-color: green;
+    width: 680px;
+    height: 28px;
+}
