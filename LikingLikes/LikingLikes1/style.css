@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card{
+    margin: auto;
+    border: 1px solid black;
+    width: 500px;
+    margin-top: 30px;
+    height: 160px;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.left{
+    margin: 10px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.card p{
+    margin-left: 30px;
+    padding-right: 45px;
+}
+
+.btn{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(255, 221, 110);
+    font-size: 1rem;
+    box-shadow: 2px 2px 0px 1px black;
+    cursor: pointer;
+}

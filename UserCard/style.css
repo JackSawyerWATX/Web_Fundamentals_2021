@@ -2,5 +2,25 @@
     display: block;
     width: 1000;
     height: 200;
-    
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Card {
+    display: flex;
+    border: 3px; color: red;
+    border-style: dotted; width: 475px;
+}
+
+.flex-container1 {
+    padding: 10px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+}
+
+.flex-container2 {
+    margin-left: 5px;
+    color: black;
 }
