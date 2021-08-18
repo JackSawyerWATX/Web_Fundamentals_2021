@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EasyBay</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="topNav">
+            <div class="header">
+                <img src="images/assets/leaf.png" class="leaf" alt="leaf">
+                <h1 class="title">EasyBay</h1>
+            </div><!-- end of header -->
+            <div class="searching">
+                <input type="search" placeholder="Search for anything" class="search-field" />
+                <button type="submit" class="search-button">
+                    <img src="images/assets/search-dark.png">
+                </button>
+            </div><!-- end of searching -->
+            <button type="submit" class="loginBtn">Sign In</button>  
+            <button onclick="emptyCart()" class="cartBtn"><img src="images/assets/cart-dark.png" class="cart" alt="cart-dark"></button>
+        </div><!--- end of top-nav -->
+
+        <div class="plantNames">
+            <h3>Aeonium 
+            <h3>Andormischus</h3> 
+            <h3>Agave</h3>
+            <h3>Aloe</h3>
+            <h3>Anacamperos</h3>
+            <h3>Aristaloe</h3>
+            <h3>More...</h3>
+        </div><!-- end of plantNames -->
+
+        <div class="blackBar"></div>
+
+        <div class="content">
+            
+            <h1 class="title2">Your Source For Serious Succulent Specialties</h1>
+            <div class="row1">
+                <div class="col1">
+                    <h2 class="pot1">Discover succulent varieties one pot or rock at a time!</h2>
+                    <h2 class="pot2">Discover <img src="images/assets/arrow-light.png" alt="arrow" class="arrow1"></h2>
+                </div><!-- end of col1 -->
+                    <img src="images/assets/succulents-2.jpg" onMouseover="src='images/assets/succulents-1.jpg'" onMouseout="src='images/assets/succulents-2.jpg'" alt="succulents" id="suc">
+                <class class="col3">
+                    <img src="images/assets/aloe-m.jpg" alt="aloe vera" id="aloeVera">
+                    <h2 class="sooth">Soothing Aloe&nbsp<img src="images/assets/arrow-light.png" alt="arrow" class="arrow2"></h2></class>
+                </div>
+            </div><!-- end of row1 -->
+        
+            <div class="row2">
+                <div>
+                    <img id=plants src="images/assets/aeonium-s.jpg" alt="aeonium">
+                    <p>Aeonium</p>
+                </div>
+                <div>
+                    <img id=plants src="images/assets/aloe-s.jpg" alt="aloe">
+                    <p>Agave</p>
+                </div>
+                <div>
+                    <img id=plants src="images/assets/cactus-s.jpg" alt="cactus">
+                    <p>Cactus</p>
+                </div>
+                <div>
+                    <img id=plants src="images/assets/echeveria-s.jpg" alt="echeveria">
+                    <p>Echeveria</p>
+                </div>
+                <div>
+                    <img id=plants src="images/assets/sedum-s.jpg" alt="sedum">
+                    <p>Sedum</p>
+                </div>
+                <div>
+                    <img id=plants src="images/assets/sempervivum-s.jpg" alt="sempervivum-s">
+                    <p>Sempervivum</p>
+                </div>
+            </div><!-- end of row2-->
+
+        </div><!--- end of content -->
+    
+        <div class="footer">
+            <div class="cookie-policy">
+                <img src="images/assets/alert-dark.png" alt="cookie">
+                <div class="text">
+                    <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href="#">cookie policy.</a></p>
+                </div>
+                <button class="btn" onclick="accept()">I Accept</button>
+            </div>
+        </div><!-- end of footer -->
+
+    </div><!-- end of container -->
+
+    <!-- script tags -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

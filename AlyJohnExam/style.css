@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    /* border: dotted 2px red; */
+}
+
+.container {
+    margin: auto;
+    max-width: 1080px;
+}
+
+.topNav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header {
+    display: flex;
+}
+
+.title {
+    margin: auto;
+}
+
+.searching {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    margin: auto;
+    width: 60%;
+    border: black solid 2px;
+}
+
+.search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+}
+
+.search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+}
+
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.plantNames {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.blackBar {
+    background-color: black;
+    max-width: 1080px;
+    height: 5px;
+}
+
+.leaf {
+    background-color: rgb(74, 218, 170);
+    margin: auto;
+    border: solid 5px white;
+    height: 50%;
+}
+
+.loginBtn {
+    background-color: white;
+    height: fit-content;
+    margin: auto;
+    font-size: medium;
+    font-weight: bolder;
+    border: none;
+}
+
+.cart {
+    height: 25px;
+    margin: auto;
+}
+
+.cartBtn {
+    background-color: transparent;
+    border: none;
+}
+
+.title2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.col1 {
+    background-color: rgb(74, 218, 170);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.sooth {
+    background-color: rgb(74, 218, 170);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.row1 {
+    display: flex;
+    height: 280px;
+}
+
+#suc {
+    height: 280px;
+    width: 900px;
+}
+.col3 {
+    margin-left: 20px;
+}
+
+.arrow1, .arrow2 {
+    width: 8%;
+}
+
+.arrow1 {
+    vertical-align: bottom;
+}
+
+.pot1 {
+    margin-bottom: 10%;
+    line-height: 2em
+}
+
+.row2 {
+    display: flex;
+    background-color: rgb(74, 218, 170);
+    margin-top: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+#plants {
+    width: 70%;
+    padding: 20px;
+    margin: auto;
+}
+
+.cookie-policy {
+    box-sizing: border-box;
+    max-width: 1000px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    background-color: rgb(74, 218, 170);
+    cursor: pointer;
+    color: white;
+}
+
+.text {
+    width: 70%;
+}
+
+
+

@@ -4,16 +4,19 @@
   margin: 50px;
   border-radius: 15px;
   background-color: darkorange;
+  color: navy;
 }
 
 .button {
   border-radius: 50%;
   margin: 50px;
-  background-color: chartreuse;
+  background-color: navy;
+  color: silver;
 }
 .button3 {
   box-shadow: 10px 5px 5px grey;
   margin: 28px;
   width: 120px;
-  background-color: blueviolet;
+  background-color: darkolivegreen;
+  color: gainsboro;
 }

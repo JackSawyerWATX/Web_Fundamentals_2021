@@ -1,18 +1,36 @@
-
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
 
 h1{
-    text-align: left;
-    color: black;
-    background-color: aqua;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    color: white;
 }
+
+span{
+    color: aqua;
+}
+
 h2{
     text-align: center;
+    margin: 10px;
+    padding: 8px;
     color: white;
     background-color: blueviolet;
 }
+
 h3{
     text-align: right;
     color: blueviolet;
+    margin: 10px;
+    padding: 5px;
     background-color: lightskyblue;
 }
 
+#topline{
+    background-color: black;
+}
