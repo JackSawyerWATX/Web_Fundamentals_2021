@@ -1,0 +1,76 @@
+.container {
+    padding: 100px;
+    background-color: rgb(209, 209, 209)
+    
+}
+
+.head {
+    display: flex;
+    padding: 20px;
+    margin-left: 120px;
+    vertical-align: middle;
+}
+
+.heading {
+    margin-left: 25px;
+    vertical-align: middle;
+}
+
+.whitehouse {
+    margin-left: 130px;
+}
+
+.policy {
+    box-sizing: border-box;
+    max-width: 1000px;
+    height: 300px;
+    padding: 20px;
+    border: 2px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.presidents {
+    display: inline-flex;
+    margin: 20px;
+    height: 250px;
+    text-align: center;
+}
+
+.Eisenhower {
+    padding: 5px;
+}
+
+.Kennedy {
+    padding: 5px;
+}
+
+.Johnson {
+    padding: 5px;
+}
+
+.Nixon {
+    padding: 5px;
+}
+
+.Ford {
+    padding: 5px;
+}
+
+.Carter {
+    padding: 5px;
+}
+
+.submit {
+    margin: 0;
+    align-items: center;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.btn {
+    align-items: center;
+}
