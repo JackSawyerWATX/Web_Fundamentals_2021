@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 1px solid whitesmoke;
+}
+
+.row{
+    display: flex;
+    background-color: seagreen;
+}
+
+.col{
+    flex: 4;
+    padding: 20px;
+    margin: 20px;
+    border: white;
+    background-color:deepskyblue;
+    color: blue;
+}
+.col-2{
+    flex: 3;
+    padding: 20px;
+    margin: 20px;
+    border: white;
+    background-color: deepskyblue;
+    color: blue;
+}
+.col-3{
+    flex: 2;
+    padding: 20px;
+    margin: 20px;
+    border: white;
+    background-color: deepskyblue;
+    color: blue;
+}
