@@ -10,10 +10,13 @@ for (var i = 0; i <= 20; i++) {
     }
 }
 
-for (var num = i = 1; i < 100; i++); {
-    var results = num(function (num) {
-        return num % 3 == 0;
-    });
-    console.log(results);
+for (var i = 100; i > 0; i--) {
+    if (i%3==0) {
+        console.log(i)
+    }
 }
 
+//memorize your for loops; logic statements; logis; functions
+//for statement; start point; logic; iterators
+//Do the algo app!!
+//onclick="alert" (Pass the belt!)

@@ -1,0 +1,59 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: gold;
+    border: navy 2px;
+    text-align:center;    
+    font-size: 45px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.8em;
+    margin: 0px;
+    background: white;
+}
+
+nav, section, article {
+    margin: 5px;
+    padding: 8px;
+}
+
+#content {
+    text-align: center;
+}
+
+button {
+    border-radius:30px;
+    width: 60px;
+    height:60px;
+    text-align:center;    
+    font-size: 25px;
+    background-color: navy;
+    color: gold;
+    border: gold solid 2px;
+	box-shadow:0px 1px 3px 1px gray;
+	text-shadow:1px 1px 3px black;
+}
+
+input {
+    border-radius:5px;
+    width: 250px;
+    font-size: 25px;
+    background-color: navy;
+    color: gold;
+    border: gold solid 2px;
+	box-shadow:0px 1px 3px 1px gray;
+	text-shadow:1px 1px 3px black;
+    padding:4px;
+    text-align: right;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 5px;
+}

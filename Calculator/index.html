@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    </header>
+    <nav>
+    </ul>
+    </nav>
+    <section>
+        <article>
+            <div id='content'>
+                <div id='content-app'>
+                    <input type='text' id='field1' readonly value='0' />
+                    <br /><br />
+                    <button onclick='writeNumber(this)' id='n7'>7</button>
+                    <button onclick='writeNumber(this)' id='n8'>8</button>
+                    <button onclick='writeNumber(this)' id='n9'>9</button>
+                    <button onclick='setOperator(this)' id='divide'>/</button>
+                    <br /><br />
+                    <button onclick='writeNumber(this)' id='n4'>4</button>
+                    <button onclick='writeNumber(this)' id='n5'>5</button>
+                    <button onclick='writeNumber(this)' id='n6'>6</button>
+                    <button onclick='setOperator(this)' id='multi'>*</button>
+                    <br /><br />
+                    <button onclick='writeNumber(this)' id='n1'>1</button>
+                    <button onclick='writeNumber(this)' id='n2'>2</button>
+                    <button onclick='writeNumber(this)' id='n3'>3</button>
+                    <button onclick='setOperator(this)' id='sustract'>-</button>
+                    <br /><br />
+                    <button onclick='setDecimal(this,true)' id='dec'>.</button>
+                    <button onclick='writeNumber(this)' id='n0'>0</button>
+                    <button onclick='calculate()' id='calcular'>=</button>
+                    <button onclick='setOperator(this)' id='sum'>+</button>
+                    <br /><br />
+                    <button onclick='cleartxt()' id='C'>C</button>
+                    <button onclick='removeLastNumber()' id='removeLast'>B</button>
+                </div>
+            </div>
+            <br />
+            <script src="script.js"></script>
+        </article>
+    </section>
+</body>
+
+</html>
