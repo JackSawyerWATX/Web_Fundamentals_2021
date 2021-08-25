@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightskyblue;
+}
+
+.cities {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-around;
+}
