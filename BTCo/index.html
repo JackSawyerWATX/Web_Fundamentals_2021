@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bothell Tobacco Co.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-nav">
+            <div class="topline">
+                <div>
+                    <h1><img src="" alt="">Bothell Tobacco Company</h1>
+                </div>
+                <div class="tabs">
+                    <h3>Catalogue</h3>
+                    <h3>About</h3>
+                    <div class="donate">
+                        <button onclick="hide(this)" class="def-btn">LogIn</button>
+                    </div>
+                </div>
+            </div>
+            <div class="selector">
+                <img src="assets/.png" alt="">
+                <label>I am looking for a...</label>
+                <select name="Any Pet">
+                <option value="Burley"> Burley Tobacco </option>
+                <option value="Cavendish"> Cavendish Tobacco </option>
+                <option value="Aromatic"> Aromatic Tobacco </option>
+                <option value="Black Fired"> Black Fired Tobacco </option>
+                <option value="English"> English Tobacco </option>
+                <option value="Virginia"> Virginia Tobacco </option>
+                <option value="Oriental"> Oriental Tobacco </option>
+                </select>
+                <div>
+                    <img src="assets/.png" alt="">
+                    <label>In or Near...</label>
+                    <input type="text" name="City or Zip Code" id="City or Zip Code">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="header">
+                        <img style="width: 80px; height: 80px;" src="assets/.jpg" alt="Sutliff 1849">
+                        <div class="right">
+                            <p id="count1"> 1 Item(s)</p>
+                            <button onclick="add1(this)" class="btn">Add To Cart</button>
+                        </div>
+                    </div>
+                    <h2 style="text-align:center">Sutliff 1849</h2>
+                    <p style="text-align:center">If you love the sweet and tangy flavor of a good <br>Virginia/Perique, don't pass up this great blend!</p>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img style="width: 80px; height: 80px;" src="assets/.jpg" alt="Sutliff 504C Aeromatic English">
+                        <div class="right">
+                            <p id="count2"> 1 Item(s)</p>
+                            <button onclick="add2(this)" class="btn">Add To Cart</button>
+                        </div>
+                    </div>
+                    <h2 style="text-align:center">Sutliff 504C Aeromatic English</h2>
+                    <p style="text-align:center">The base is nutty Burley and smooth black <br>Cavendish with a mellow top note. Then, <br>a measured amount of Cyprian Latakia is <br>added to add depth and a touch of leathery smokiness.
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img style="width: 80px; height: 80px;" src="assets/.jpg" alt="Sutliff African Queen">
+                        <div class="right">
+                            <p id="count3"> 1 Item(s)</p>
+                            <button onclick="add3(this)" class="btn">Add To Cart</button>
+                        </div>
+                    </div>
+                    <h2 style="text-align:center">Sutliff African Queen</h2>
+                    <p style="text-align:center">Besides the Burley and Virginia you might <br>expect, there's also some exotic and <br>somewhat spicy Turkish Smyrna. The blend <br>is finished with a combination of mellow flavors <br>that compliment the tobaccos and gives <br>Sutliff African Queen a wonderful room note.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

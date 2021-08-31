@@ -1,4 +1,4 @@
-<p id="time" style="font-size:70px;font-weight:bolder;color:blue;text-shadow: orangered 1px 2px 25px;text-align:center">Time</p>
+<p id ="time" style="font-size:70px;font-weight:bolder;color:blue;text-shadow: orangered 1px 2px 25px;text-align:center">Time</p>
 <script>
 
 if(gt.style.color=="green"){

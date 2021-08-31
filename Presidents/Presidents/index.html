@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reelect A President</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">
+            <div class="seal">
+                <img src="images/PresidentialSeal.webp" alt="Presidential Seal" style="width: 75px; height: 75px;">
+            </div>
+            <div class="heading">
+                <h1>REMAKE A PRESIDENT</h1>
+            </div>
+        </div>
+
+        <div class="policy">
+            <img src="images/USconstitution.jpg" alt="Constitution" style="width: 100px; height: 100px;">
+            <div class="text">
+                <p>This is the official election ballot for the President of the United States Hologram Prototype. The
+                Executive Office of the United States of America has run out of options for President-Elect and a
+                platform has been designed to reinstate the policies and personalities, with up-to-date progressive
+                algorithms adaptable to today's public policies, prototype holographic candidates begin in the
+                latter half of the mid twentieth century. The President Hologram Prototype, or PHP, will be a
+                projected hologram representing the morals and values, as well as the leadership skills of those
+                presidents who held office between 1950, and 1980, developed on a program and algorithms to more
+                effectively execute the office of President of the United States of America. This ballot will be
+                subject to all guidelines and laws of <a href="#">Amendment 12 </a> of the Constitution of The
+                United States of America.</p>
+            </div>
+            <button class="btn" onclick="accept()">Understood</button>
+        </div>
+
+        <div class="whitehouse">
+            <img src="images/WhiteHouseNorth.jpg" onMouseover="src='images/WhiteHouseSouth.jpg'"
+                onMouseout="src='images/WhiteHouseNorth.jpg'" alt="WhiteHouse" id="WhiteHouse"
+                style="width: 500px; height: 250px;">
+        </div>
+
+        <div class="presidents">
+            <div class="Eisenhower">
+                <img src="images/DwightDEisenhower.jpg" alt="Eisenhower" style="width: 110px; height: 150px;">
+                <p style="font-size:x-small">Dwight Eisenhower (R)</p>
+                <input type="radio" name="vote" id="radio" value="1">
+            </div>
+            <div class="Kennedy">
+                <img src="images/JohnFKennedy.jpg" alt="Kennedy" style="width: 110px; height: 150px;">
+                <p style="font-size: x-small;">John F. Kennedy (D)</p>
+                <input type="radio" name="vote" id="radio" value="1">
+            </div>
+            <div class="Johnson">
+                <img src="images/LyndonBJohnson.jpg" alt="Johnson" style="width: 110px; height: 150px;">
+                <p style="font-size: x-small;">Lyndon B. Johnson (D)</p>
+                <input type="radio" name="vote" id="radio" value="1">
+            </div>
+            <div class="Nixon">
+                <img src="images/RichardNixon.jpg" alt="Nixon" style="width: 110px; height: 150px;">
+                <p style="font-size: x-small;">Richard M. Nixon (R)</p>
+                <input type="radio" name="vote" id="radio" value="1">
+            </div>
+            <div class="Ford">
+                <img src="images/GeraldFord.jpg" alt="Ford" style="width: 110px; height: 150px;">
+                <p style="font-size: x-small;">Gerald R. Ford (R)</p>
+                <input type="radio" name="vote" id="radio" value="1">
+            </div>
+            <div class="Carter">
+                <img src="images/JimmyCarter.jpg" alt="Carter" style="width: 110px; height: 150px;">
+                <p style="font-size: x-small">James E. Carter (D)</p>
+                <input type="radio" name="vote" id="radio" value="1">
+            </div>
+        </div>
+
+        <div class="submit">
+            <button class="btn" onclick="accept()">Submit Vote</button>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html
