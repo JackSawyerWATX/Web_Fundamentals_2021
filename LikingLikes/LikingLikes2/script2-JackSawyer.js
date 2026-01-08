@@ -6,7 +6,7 @@ function add1(){
     btn1.innerText = count1 + " like(s)"
 }
 
-var count1 = 1;
+var count2 = 1;
 var btn2 = document.querySelector("#count2");
 
 function add2(){
@@ -14,7 +14,7 @@ function add2(){
     btn2.innerText = count2 + " like(s)"
 }
 
-var count1 = 1;
+var count3 = 1;
 var btn3 = document.querySelector("#count3");
 
 function add3(){

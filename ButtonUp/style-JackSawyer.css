@@ -1,11 +1,7 @@
 
 
-.wrapper {
-  margin: 100px; auto:
-}
-
 .button1 {
-  margin: 5px;
+  margin: 50px;
   border-radius: 15px;
   background-color: darkorange;
   color: navy;
@@ -13,13 +9,13 @@
 
 .button {
   border-radius: 50%;
-  margin: 5px;
+  margin: 50px;
   background-color: navy;
   color: silver;
 }
 .button3 {
   box-shadow: 10px 5px 5px grey;
-  margin: 5px;
+  margin: 28px;
   width: 120px;
   background-color: darkolivegreen;
   color: gainsboro;
