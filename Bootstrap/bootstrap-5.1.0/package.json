@@ -138,7 +138,7 @@
     "npm-run-all": "^4.1.5",
     "postcss": "^8.3.6",
     "postcss-cli": "^8.3.1",
-    "rollup": "^2.55.1",
+    "rollup": "^3.30.0",
     "rollup-plugin-istanbul": "^3.0.0",
     "rtlcss": "^3.3.0",
     "sass": "^1.37.5",
@@ -146,7 +146,7 @@
     "stylelint": "^16.26.1",
     "stylelint-config-twbs-bootstrap": "^16.1.0",
     "terser": "5.1.0",
-    "vnu-jar": "21.6.11"
+    "vnu-jar": "26.1.11"
   },
   "files": [
     "dist/{css,js}/*.{css,js,map}",
